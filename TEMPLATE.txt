@@ -1,0 +1,21 @@
+Generator Generator
+
+Instructions
+Fill out the following information for the school year that the live [schedule generator]=>[schedule-gen.github.io] should be generating
+
+Press “Check” to make sure that the day numbers are correct throughout the year. It can display the last day of the year, a random day, and the day for a specified date.
+
+First day:
+
+Last day:
+
+Days of no school
+
+add (single day, range)
+
+CHECK
+last day:
+ten random days:
+specific day:
+
+Download
