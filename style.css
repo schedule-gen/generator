@@ -12,8 +12,22 @@ body, input {
 	letter-spacing: -.015rem;
 }
 
+::-webkit-datetime-edit { padding: 0; }
+::-webkit-inner-spin-button { display: none; }
+
 input {
-	
+	border: none;
+	height: 2.1rem;
+	outline: none;
+	background-color: rgba(0,0,0,.15);
+}
+
+label {
+	font-weight: 500;
+}
+
+input:focus {
+	background-color: rgba(0,0,0,.30);
 }
 
 code {
