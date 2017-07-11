@@ -14,12 +14,28 @@ body, input {
 
 ::-webkit-datetime-edit { padding: 0; }
 ::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator {
+	background-color: #666;
+	color: #fff;
+	border-radius: .2em;
+	padding: .2rem .3rem;
+	margin-left: -1rem;
+	margin-right: .5rem;
+}
+::-webkit-calendar-picker-indicator:hover { background-color: #444; }
+::-webkit-calendar-picker-indicator:active { background-color: #333; }
 
 input {
 	border: none;
 	height: 2.1rem;
 	outline: none;
 	background-color: rgba(0,0,0,.15);
+	width: 10rem;
+}
+
+form div {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 label {

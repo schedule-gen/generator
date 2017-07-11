@@ -6,6 +6,7 @@
 	<link href="style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="script.js"></script>
 	<script src="download.js"></script>
 </head>
 <body>
@@ -22,21 +23,12 @@
 	</header>
 	<main>
 		<section>
-			<h2>Input Schedule</h2>
+			<h2>School Year Info</h2>
 			<form>
-				<section>
-					<h3>First and Last Days</h3>
-					<label for="first-day">First </label>
-					<input type="date" name="first-day"><br><br>
-					<label for="last-day">Last </label>
-					<input type="date" name="last-day">
-				</section>
-				<section>
-					<h3>Days of No School</h3>
-					<button type="button">+ Day</button>
-					<button type="button">+ Range</button>
-				</section>
+				<div>First day is <input type="date" name="first-day"> and last day is <input type="date" name="last-day"><button type="button">Clear</button><button type="button">Remove</button></div>
 			</form>
+			<button type="button" id="day">+Day</button>
+			<button type="button" id="range">+Range</button>
 		</section>
 		<section>
 			<h2>Check</h2>
